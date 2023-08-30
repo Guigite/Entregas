@@ -4,130 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O jornal do amanhã</title>
-
-    <style>
-        tr,td,th {
-            border: 1px solid black;
-            width: 300px;
-            height: 100px;
-        }
-        body{
-            background-color: bisque;
-        }
-    
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Site Dolly</title>
 </head>
 <body>
-    <div>
-        <h1>As Maiores Inovações Tecnológicas dos Anos 2030</h1>
-        <p>
-        Mantenha-se atualizado e desperte sua curiosidade para um mundo em constante evolução. 
-        Ao absorver conhecimento, você ganha oportunidades profissionais e pessoais, contribui para debates globais e enriquece suas conversas. 
-        Aproveite a abundância de recursos disponíveis, como podcasts, blogs e cursos online, para estar na vanguarda das tendências. 
-        Não deixe as mudanças passarem por você; 
-        mantenha sua mente ávida por aprendizado e faça da busca por conhecimento uma parte essencial de sua jornada.
-        </p>
-    </div>
-
-    <div>
-        <table>
-            <thead>
-                <tr>
-                    <th>Inovação</th>
-                    <th>Descrição</th>
-                    <th>Impacto</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Realidade Aumentada Avançada</td>
-                    <td>A combinação aprimorada de inteligência artificial e realidade aumentada resultará em um ambiente altamente imersivo, integrando informações digitais ao mundo físico.</td>
-                    <td>Impacto na educação: Aprendizado mais envolvente e prático, permitindo simulações e interações interativas. Impacto na indústria: Treinamento eficiente de funcionários e design colaborativo aprimorado. Impacto na saúde: Visualização precisa de dados médicos e instruções detalhadas para procedimentos complexos.</td>
-                </tr>
-                <tr>
-                    <td>Energias Renováveis Avançadas</td>
-                    <td>Tecnologias de energia renovável inovadoras, juntamente com sistemas avançados de armazenamento de energia, revolucionarão a geração e utilização de energia, reduzindo a dependência de combustíveis fósseis.</td>
-                    <td>Impacto ambiental: Redução significativa das emissões de carbono e mitigação das mudanças climáticas. Impacto na economia: Criação de empregos em setores de tecnologia verde e redução dos custos de energia a longo prazo. Impacto na infraestrutura: Integração de sistemas de energia renovável em edifícios e redes elétricas.</td>
-                </tr>
-                <tr>
-                    <td>Terapias Genéticas Personalizadas</td>
-                    <td>Avanços na medicina permitirão tratamentos direcionados a nível genético para doenças hereditárias, abrindo caminho para a cura e a prevenção de condições que antes eram consideradas incuráveis.</td>
-                    <td>Impacto na saúde: Tratamento eficaz de doenças genéticas e personalização das terapias de acordo com o perfil genético do paciente. Impacto ético: Considerações sobre privacidade e modificação genética que requerem regulamentações rigorosas. Impacto na pesquisa médica: Avanço das fronteiras do conhecimento sobre genética humana.</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <td colspan="3">Fontes: Artigos científicos, pesquisas científicas e documentários de empresas como SpaceX, StarLink e NASA.</td>
-            </tfoot>
-        </table>
-    </div>
-
-    <br>
-
-    <div>
-        <h3>Saiba mais sobre cada tecnologia</h3>
+    <div class="menu-navegacao">
+        <img class="imagem-logo" src="https://dolly.com.br/wp-content/uploads/2019/06/1d5f97_2d792ac1cd6b445ab60062fe4499e376.png" alt="Logo da Dolly" height="94px" width="108px">
         <ul>
-            <li><a href="https://www.iberdrola.com/inovacao/o-que-e-realidade-aumentada#:~:text=A%20Realidade%20Aumentada%20(RA)%20%C3%A9,Aumentada%20na%20%C3%A1rea%20da%20sa%C3%BAde.">Realidade Aumentada</a></li>
-            <li><a href="https://www.raizen.com.br/blog/energia-renovavel?utm_source=google&utm_medium=cpc&utm_campaign=g81z_lq55db8t_N2_raizen_blog_google_awareness&utm_content=lq55db8t_blog_google_search_awareness_interesses_cpc_search___energia-renovavel&utm_id=lq55db8t&gclid=Cj0KCQjwuZGnBhD1ARIsACxbAVjfDijQMf_jA8N5o4kqkrk3a5eGPb34EL1BghEeiXZjIJQqW2MpFq8aAibtEALw_wcB">Energia renovável</a></li>
-            <li><a href="https://www.todamateria.com.br/terapia-genica/#:~:text=A%20terapia%20g%C3%AAnica%20%C3%A9%20um,ou%20manipular%20genes%20com%20problemas.">Terapias genética</a></li>
+            <li>Início</li>
+            <li>História</li>
+            <li>Produtos</li>
+            <li>Contatos</li>
         </ul>
     </div>
-    
-    <br>
-
-    <div>
-        <form action="">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome">
-            <br><br>
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha">
-            <br><br>
-            <label for="idade">Idade:</label>
-            <input type="number" id="idade" name="idade">
-            <br><br>
-
-            <p>Já conhecia essas inovações?</p>
-            
-            <input type="radio" id="sim" name="sim" value="sim">
-            <label for="sim">Sim</label><br>
-            <input type="radio" id="nao" name="nao" value="nao">
-            <label for="nao">Não</label><br>
-
-            <p>Quais são as mais impactantes?</p>
-            
-            <input type="checkbox" id="inovação1" name="inovação1" value="1">
-            <label for="inovação1">Realidade Aumentada</label><br>
-            <input type="checkbox" id="inovação2" name="inovação2" value="2">
-            <label for="inovação2">Energia renovável</label><br>
-            <input type="checkbox" id="inovação3" name="inovação3" value="3">
-            <label for="inovação3">Terapias genética</label><br><br>
-
-            <label for="pais">De qual país você é?</label>
-
-            <select name="pais" id="pais">
-                <option value="Brasil">Brasil</option>
-                <option value="Estados Unidos">Estados Unidos</option>
-                <option value="Portugal">Portugal</option>
-                <option value="Italia">Itália</option>
-                <option value="Espanha">Espanha</option>
-                <option value="Marrocos">Marrocos</option>
-            </select>
-            <br><br>
-
-            <textarea name="sugesato" id="sugestao" cols="30" rows="10">Sugestão de novas inovações: </textarea>
-            <br><br>
-            <input type="submit" value="Enviar">
-        </form>
+    <div class="conteudo">
+        <img src="https://dolly.com.br/wp-content/uploads/2019/04/bkg-slide1.jpg" alt="Vários Dollys" height="281px" width="417px">
+        <img class="dollynho" src="https://dolly.com.br/wp-content/uploads/2019/04/slide-dollynho.png" alt="Dollynho" height="154" width="132">
+        <div class="conteudo-texto">
+            <h1 style="color: #006633;">Dolly Refrigerantes</h1>
+            <h2 style="color: black;">Apresenta</h2>
+            <span style="color: #7A7A7A;">Uma Marca</span>
+            <p style="width: 180px;">100% Nacional</p>
+            <span style="color: #7A7A7A;">no mercado de refrigerante</span>
+            <p style="width: 135px;">desde 1987</p>
+            <span style="color: #7A7A7A;">A Dolly destaca-se pela</span>
+            <p style="width: 370px;">qualidade de seus produtos</p>
+        </div>
     </div>
-
-    <div>
-        <h3>Detlhes do Site:</h3>
-        <details>
-            <summary>Sobre as inovações:</summary>
-            <p>Não se prenda totalmente às inovações tecnológicas citadas, descritas e datadas nesse site, pois não se passa de uma idealização de tema; onde as inovações, descrições e impactos foram totalmente idealizados e imaginados.</p>
-        </details>
+    <div class="videos">
+        <h2></h2>
+        <iframe src="https://youtube.com/embed/zoSPuZfz-Zk" frameborder="0" width="367" height="215"></iframe>
+        <iframe src="https://youtube.com/embed/pq4bOMOk2Io" frameborder="0" width="367" height="215"></iframe>
+        <iframe src="https://youtube.com/embed/ugiCi9EHwW8" frameborder="0" width="367" height="215"></iframe>
     </div>
-
 </body>
 </html>
