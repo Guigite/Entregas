@@ -54,6 +54,7 @@ ul, li:hover{
 
 .conteudo span{
     font-size: 22px;
+    text-transform: capitalize;
 }
 
 .conteudo h2 {
@@ -66,4 +67,68 @@ ul, li:hover{
 
 .conteudo-texto{
     margin-left: 140px;
+}
+
+.videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.videos iframe{
+    margin: 10px;
+}
+
+.titulo-videos{
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-left: 380px;    
+    color: #4fa7b0;
+    font-weight: bold;
+}
+
+.titulo-redessociais{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 380px; 
+    color: #4fa7b0;
+    font-weight: bold
+}
+
+.redessociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redessociais img{
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.redessociais a :hover{
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.footer{
+    background-color: #006633;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer p{
+    text-transform: capitalize;
+    color: #FFF;
+}
+
+.link-footer img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
 }
