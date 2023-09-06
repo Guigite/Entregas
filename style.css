@@ -1,134 +1,47 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-transform: uppercase;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+.boletim{
+    border: solid 3px; border-color: red;
+    width: 600px;
+    height: 600px;
 }
 
-.menu-navegacao{
-    display: flex;
-    justify-content: space-between;
-    background-color: #DEEAB9;
-    align-items: center;
-    height: 114.5px;
-    width: 100%;
+.titulo1{
+    border: solid 3px; border-color: blue;
+    width: 595px;
+    height: 70px;
 }
 
-.imagem-logo{
-    margin-left: 100px;
+.dados{
+    border: solid 3px; border-color: green;
+    width: 595px;
+    height: 70px;
 }
 
-ul, li{
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 0.6px;
-    font-family: "Roboto", sans-serif;
-    color: #006633;
-    list-style: none;
-    display: inline-block;
-    margin-right: 50px;
+.titulo2{
+    border: solid 3px; border-color: yellow;
+    width: 595px;
+    height: 70px;
 }
 
-ul, li:hover{
-    color: #FFF;
-    transition: 0.5s;
-    cursor: pointer;
+.fonte{
+    border: solid 3px; border-color: gray;
+    width: 595px;
+    height: 70px;
 }
 
-.conteudo{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+.redes{
+    border: solid 3px; border-color: black;
+    width: 595px;
+    height: 70px;
 }
 
-.conteudo p {
-    background-color: #006633;
-    color: #FFF;
-    border-radius: 5px;
-    margin: 5px 5px 5px 0px;
-    font-size: 22px;
-    font-weight: 100;
-    height: 28px;
-}
-
-.conteudo span{
-    font-size: 22px;
-    text-transform: capitalize;
-}
-
-.conteudo h2 {
-    margin: 0px 0px 30px 100px;
-}
-
-.dollynho{
-    margin: 155px 0px 0px -100px;
-}
-
-.conteudo-texto{
-    margin-left: 140px;
-}
-
-.videos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.videos iframe{
-    margin: 10px;
-}
-
-.titulo-videos{
-    margin-top: 200px;
-    margin-bottom: 20px;
-    margin-left: 380px;    
-    color: #4fa7b0;
-    font-weight: bold;
-}
-
-.titulo-redessociais{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 380px; 
-    color: #4fa7b0;
-    font-weight: bold
-}
-
-.redessociais{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.redessociais img{
-    margin: 3px;
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-}
-
-.redessociais a :hover{
-    opacity: 0.8;
-    transition: 1s;
+.final{
+    border: solid 3px; border-color: pink;
+    width: 595px;
+    height: 70px;
 }
 
 .footer{
-    background-color: #006633;
-    height: 92px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.footer p{
-    text-transform: capitalize;
-    color: #FFF;
-}
-
-.link-footer img{
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
+    border: solid 3px; border-color: purple;
+    width: 595px;
+    height: 70px;
 }
