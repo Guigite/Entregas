@@ -1,47 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    font-family: 'Roboto';
+}
+
+/* ----------- Boletim ----------- */
 .boletim{
-    border: solid 3px; border-color: red;
-    width: 600px;
+    border: solid 0.1px; border-color: #E8E8E8;
+    width: 500px;
     height: 600px;
+    background-color: #E8E8E8;
 }
 
+/* ----------- Titulo 1 ----------- */
 .titulo1{
-    border: solid 3px; border-color: blue;
-    width: 595px;
-    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
 }
 
+.titulo1 span {
+    text-transform: uppercase;
+    margin: 1px;
+}
+
+#titulo-boletim{
+    font-weight: bold;
+    font-size: 18px;
+    color: #DF0104;
+}
+#titulo-doenca{
+    font-weight: bold;
+    font-size: 30px;
+    color: #DF0104;
+}
+#titulo-dados{
+    font-weight: bold;
+    font-size: 14px;
+    color: #DF0104;
+}
+
+/* ----------- Dados ----------- */
 .dados{
-    border: solid 3px; border-color: green;
-    width: 595px;
-    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
 }
 
+.confirmados{
+    border: solid 3px; border-color: #DF0104;
+    margin: 10px;
+    width: 140px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.recuperados{
+    border: solid 3px; border-color: rgb(1, 85, 1);
+    margin: 10px;
+    width: 140px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.obitos{
+    border: solid 3px; border-color: rgb(80, 80, 80);
+    margin: 10px;
+    width: 140px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.total{
+    font-weight: bold;
+    color: #FFF;
+    width: 140px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#numero1{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #DF0104;
+}
+#numero2{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(1, 85, 1);
+}
+#numero3{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}
+
+/* ----------- Titulo 2 ----------- */
 .titulo2{
-    border: solid 3px; border-color: yellow;
-    width: 595px;
-    height: 70px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
 }
 
+#periodo{
+    color: #DF0104;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* ----------- Status ----------- */
+.status{
+    /* border: solid 3px; border-color: orangered; */
+    width: 495px;
+    height: 180px;
+}
+
+/* ----------- Fonte -----------  */
 .fonte{
-    border: solid 3px; border-color: gray;
-    width: 595px;
-    height: 70px;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
 }
 
+/* ----------- Redes ----------- */
 .redes{
-    border: solid 3px; border-color: black;
-    width: 595px;
-    height: 70px;
+    color: #DF0104;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
+/* ----------- Final ----------- */
 .final{
-    border: solid 3px; border-color: pink;
-    width: 595px;
-    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
 
+.texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.espaco{
+    border: solid 1px; border-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 41px;
+}
+
+/* ----------- Footer ----------- */
 .footer{
-    border: solid 3px; border-color: purple;
-    width: 595px;
-    height: 70px;
+    margin-top: 10px;
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+}
+
+#vermelho{
+    background-color: #DF0104;
+    width: 241px;
+    height: 10px;
+}
+#amarelo{
+    background-color: #FFD20A;
+    width: 131px;
+    height: 10px;
+}
+#verde{
+    background-color: #135304;
+    width: 131px;
+    height: 10px;
 }
