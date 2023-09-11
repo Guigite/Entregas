@@ -10,6 +10,7 @@
     width: 500px;
     height: 600px;
     background-color: #E8E8E8;
+    display: block;
 }
 
 /* ----------- Titulo 1 ----------- */
@@ -134,9 +135,49 @@
 
 /* ----------- Status ----------- */
 .status{
-    /* border: solid 3px; border-color: orangered; */
-    width: 495px;
-    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.caixa-esquerda{
+    width: 230px;
+    height: 160px;
+    margin-right: 5px;
+    display: flex;
+}
+
+.caixa-direita{
+    width: 230px;
+    height: 160px;
+    margin-left: 5px;
+    display: flex;
+}
+
+.caixa-numeros{
+    width: 55px;
+    height: 160px;
+    margin-right: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-texto{
+    width: 180px;
+    height: 160px;
+    margin-left: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-texto div{
+    margin-top: 5px;
+}
+
+.caixa-numeros div{
+    margin-top: 5px;
 }
 
 /* ----------- Fonte -----------  */
@@ -144,6 +185,7 @@
     font-size: 9px;
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 /* ----------- Redes ----------- */
