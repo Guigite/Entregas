@@ -28,3 +28,49 @@
     display: flex;
     align-items: center;
 }
+
+.introducao{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.introducao p{
+    color: #838B9C;
+    font-size: 20px;
+}
+
+.introducao h2{
+    font-size: 15px;
+    color: #8E2424;
+}
+
+.introducao h1{
+    font-size: 45px;
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.infos h1{
+    font-size: 50px;
+    color: #8E2424;
+    font-weight: bold;
+}
+
+.infos h2{
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+.infos p{
+    font-size: 15px;
+    color: #838B9C;
+}
