@@ -3,80 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boletim Epdemiológico</title>
+    <title>Vagas de Tecnologia da Informação</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="boletim">
-        <div class="titulo1">
-            <span id="titulo-boletim">Boletim</span>
-            <span id="titulo-doenca">Coronavírus</span>
-            <span id="titulo-dados">Dados consolidados:</span>
+    <div class="header">
+        <div class="logo-titulo">
+            <img src="https://lh3.googleusercontent.com/drive-storage/APZSt_es425XAgfZ0W7f6D_f-f3EssE4MDa3InOzrWPeXjxcScbeKnbiVKPlJIR6GfE8Ph5DuKbnY91ATZEs-mQznI6ojYNV_8K0kyavV6vW=w1583-h783" alt="">
+            <span style="margin-left: 10px;">OptimusTech</span>
         </div>
-        <div class="dados">
-            <div class="confirmados">
-                <div class="total" style="background-color: #DF0104;"><p>Total Confirmados</p></div>
-                <p id="numero1">2.475</p>
-            </div>
-            <div class="recuperados">
-                <div class="total" style="background-color: rgb(1, 85, 1);"><p>Total Recuperados</p></div>
-                <p id="numero2">2.442</p>
-            </div>
-            <div class="obitos">
-                <div class="total" style="background-color: rgb(80, 80, 80);"><p>Total Óbitos</p></div>
-                <p id="numero3">33</p>
-            </div>
+        <div class="navbar">
+            <p>Home</p>
+            <p>Produtos</p>
+            <p>Recursos</p>
+            <p>Sobre Nós</p>
         </div>
-        <div class="titulo2">
-            <p id="periodo">Período: 01/03 à 07/03</p>
-        </div>
-        <div class="status">
-            <div class="caixa-esquerda">
-                <div class="caixa-numeros">
-                    <div style="background-color: #0877A7; height: 40px; display: flex; align-items: center; justify-content: center; color: #FFF; font-weight: bold;">01</div>
-                    <div style="background-color: #1BC906 ; height: 40px; display: flex; align-items: center; justify-content: center; color: #FFF; font-weight: bold;">01</div>
-                    <div style="background-color: #FF3F3F; height: 40px; display: flex; align-items: center; justify-content: center; color: #FFF; font-weight: bold;">00</div>
-                </div>
-                <div class="caixa-texto">
-                    <div style="background-color: #0877A7; height: 40px; display: flex; align-items: center; justify-content: center; color: #FFF; font-weight: bold;">Suspeitos</div>
-                    <div style="background-color: #1BC906 ; height: 40px; display: flex; align-items: center; justify-content: center; color: #FFF; font-weight: bold;">Descartados</div>
-                    <div style="background-color: #FF3F3F; height: 40px; display: flex; align-items: center; justify-content: center; color: #FFF; font-weight: bold;">Confirmados</div>
-                </div>
-            </div>
-            <div class="caixa-direita">
-                <div class="caixa-numeros">
-                    <div style="background-color: #F7B70E; height: 40px; display: flex; align-items: center; justify-content: center; color: #FFF; font-weight: bold;">00</div>
-                    <div style="background-color: #A409B5; height: 40px; display: flex; align-items: center; justify-content: center; color: #FFF; font-weight: bold;">00</div>
-                    <div style="background-color: black; height: 40px; display: flex; align-items: center; justify-content: center; color: #FFF; font-weight: bold;">00</div>
-                </div>
-                <div class="caixa-texto">
-                    <div style="background-color: #F7B70E; height: 40px; display: flex; align-items: center; justify-content: center; color: #FFF; font-weight: bold;">Em isolamento</div>
-                    <div style="background-color: #A409B5; height: 40px; display: flex; align-items: center; justify-content: center; color: #FFF; font-weight: bold;">Hospitalizados</div>
-                    <div style="background-color: black; height: 40px; display: flex; align-items: center; justify-content: center; color: #FFF; font-weight: bold;">Óbitos</div>
-                </div>
-            </div>
-        </div>
-        <div class="fonte">
-            <span style="font-weight: bold;">Fonte:</span>
-            <span>Vigilância Epidemiológica Ibimirim - Pe</span>
-        </div>
-        <div class="redes">
-            <div><img src="https://www.imagensempng.com.br/wp-content/uploads/2023/02/456.png" alt="" width="100" height="50"></div>
-            <span>Curta, comenta e compartilha</span>
-        </div>
-        <div class="final">
-            <div class="texto">
-                <span>Secretaria</span>
-                <span>Municipal</span>
-                <span style="font-weight: bold;">De Saúde</span>
-            </div>
-            <div class="espaco"></div>
-            <div class="imagem"><img src="data:image/png;base64,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" alt="" width="120" height="44"></div>
-        </div>
-        <div class="footer">
-            <div id="vermelho"></div>
-            <div id="amarelo"></div>
-            <div id="verde"></div>
+        <div class="login">
+            <span style="color: #838B9C;">Entrar</span>
+            <span style="
+                margin-left: 20px;
+                background-color: #8E2424;
+                color: #FFF;
+                width: 100px;
+                height: 40px;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            ">Cadastrar</span>
         </div>
     </div>
 </body>
