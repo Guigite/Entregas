@@ -2,7 +2,7 @@ header{
     background-image: url('../../imege/filmes.png');
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 85vh;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);

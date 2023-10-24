@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="Site Mega Flix" content="Desenvolvido junto com o prof de desenvolvimento web">
@@ -8,31 +9,46 @@
     <title>Mega Flix |
         Projeto desenvolvido pelo professor: Kaian
     </title>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/atropos.css" />
+
 </head>
+
 <body>
     <header>
         <nav class="animate__animated animate__backInUp">
-            <div class="logo" >
+            <div class="logo">
                 <img class="logo__image" src="./imege/logo.png" alt="">
                 <h3>Mega Flix</h3>
             </div>
-            <ul class="links" >
-            <li><a class="home" href="">Home</a></li>
-            <li><a href="">Filmes</a></li>
-            <li><a href="">Séries</a></li>
-            <li><a href="">Categorias</a></li>
-            <li><a href="">Preço</a></li>
-            <li><a href="">Sobre</a></li>
+            <ul class="links">
+                <li><a class="home" href="">Home</a></li>
+                <li><a href="">Filmes</a></li>
+                <li><a href="">Séries</a></li>
+                <li><a href="">Categorias</a></li>
+                <li><a href="">Preço</a></li>
+                <li><a href="">Sobre</a></li>
             </ul>
-            <ul class="icones" >
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" fill="white" /></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" fill="white" /></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" fill="white" /></svg>
+            <ul class="icones">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                        fill="white" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                        fill="white" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                        fill="white" />
+                </svg>
             </ul>
 
         </nav>
@@ -45,8 +61,8 @@
                 Encontre os lançamentos de filmes imperdiveis e viva emoções incríveis!
             </h2>
             <ul>
-                <li class="btn btn__start " >Começar</li>
-                <li class="btn btn__plan" >Planos</li>
+                <li class="btn btn__start ">Começar</li>
+                <li class="btn btn__plan">Planos</li>
             </ul>
         </hgroup>
     </header>
@@ -54,49 +70,158 @@
         <section class="categorias">
             <h2 class="categorias__titulo">Principais caracteristicas</h2>
             <div class="card bloco1">
-                <h3>Experiência imersiva e personalizada</h3>
-                <p>
-                    Oferecemos uma experiência de usuário
-                    envolve e personaliza, adaptando-se
-                    às prefereências individuais. 
+                <h3>Experiencia imersiva e personalizada</h3>
+                <p>Oferecemos uma experiencia de usuario
+                    envolvente e personalizada, adaptando-se
+                    às preferencias individuais.
                 </p>
             </div>
-            <div class="card bloco2">       
-                <h3>Navegação intuitiva e Design responsivo</h3>
-                <p>
-                    Levamos a sério a beleza e a intuitividade:
+            <div class="card bloco2">
+                <h3>Navegação intuitiva e design responsivo</h3>
+                <p>Levamos a sério a beleza e a intuitividade:
                     de nosso site e garantimos uma excelente
                     experiência.
                 </p>
             </div>
             <div class="card bloco3">
                 <h3>Conteúdo de altíssima qualidade e atualizado</h3>
-                <p>Descubra o que está em alta no momento </p>
+                <p>Descubra o que está em alta no momento</p>
             </div>
             <div class="card bloco4">
                 <h3>Interação e engajamento com a comunidade</h3>
-                <p>
-                    Temos uma comunidade ativa e engajada, que compartilham opniões e recomendações.
+                <p>Temos uma comunidade ativa e engajada, que
+                    compartilham opniões e recomendações.
                 </p>
             </div>
         </section>
         <section class="movie">
-            <h2 class="movie__title">
-                Filmes mais aclamados e desejados
-            </h2>
-            <div class="box-image">
-                <img src="./imege/Animais-Fantasticos-3-Novas-projecoes-indicam-fracasso-do-filme-nas-bilheterias-dos-EUA-1200x675.jpg" alt="Animais Fantásticos">
-                <img src="./imege/aquaman.jpeg" alt="Aquaman">
-                <img src="./imege/avatar.jpeg" alt="Avatar">
+            <div class="movie_title_completo">
+                <h2 class="movie_title">
+                    Filmes mais aclamados e desejados
+                </h2>
             </div>
-            <div class="box-image2">
-                <img src="./imege/3724880-raised-by-wolves-hbo-max-1200x675.jpg" alt="Wolves">
-                <img src="./imege/101-curiosidades-sobre-game-of-thrones-1200x675.jpg" alt="Game Of Thrones">
-                <img src="./imege/harryPotter.jpeg" alt="Harry Potter">
+
+            <div class="movie__imagem">
+
+                <div class="atropos my-atropos">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner">
+
+
+                                <img src="./imege/Animais-Fantasticos-3-Novas-projecoes-indicam-fracasso-do-filme-nas-bilheterias-dos-EUA-1200x675.jpg"
+                                    alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="atropos atropos2">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner">
+
+
+                                <img src="./imege/aquaman.jpeg" alt="">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="atropos atropos3">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner">
+
+
+                                <img src="./imege/avatar.jpeg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie__imagem">
+
+                    <div class="atropos atropos4">
+                        <!-- scale container (required) -->
+                        <div class="atropos-scale">
+                            <!-- rotate container (required) -->
+                            <div class="atropos-rotate">
+                                <!-- inner container (required) -->
+                                <div class="atropos-inner">
+
+
+                                    <img src="./imege/harryPotter.jpeg" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="atropos atropos5">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner">
+
+
+                                <img src="./imege/3724880-raised-by-wolves-hbo-max-1200x675.jpg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="atropos atropos6">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner">
+
+
+                                <img src="./imege/101-curiosidades-sobre-game-of-thrones-1200x675.jpg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
-    </main>
 
+        <!-- <div class="movie__imagem">
+            <img src="./imege/Animais-Fantasticos-3-Novas-projecoes-indicam-fracasso-do-filme-nas-bilheterias-dos-EUA-1200x675.jpg"
+                alt="">
+            <img src="./imege/aquaman.jpeg" alt="">
+            <img src="./imege/avatar.jpeg" alt="">
+        </div>
+
+
+        <div class="movie__imagem">
+            <img src="./imege/harryPotter.jpeg" alt="">
+            <img src="./imege/3724880-raised-by-wolves-hbo-max-1200x675.jpg" alt="">
+            <img src="./imege/101-curiosidades-sobre-game-of-thrones-1200x675.jpg" alt="">
+        </div> -->
+
+    </main>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
         ScrollReveal().reveal('.bloco1', {
@@ -105,7 +230,7 @@
             rotate: {
                 x: 22
             },
-            delay: 300
+            delay: 500
         });
         ScrollReveal().reveal('.bloco2', {
             easing: 'ease-out',
@@ -113,7 +238,7 @@
             rotate: {
                 x: 22
             },
-            delay: 300
+            delay: 500
         });
         ScrollReveal().reveal('.bloco3', {
             easing: 'ease-out',
@@ -121,7 +246,7 @@
             rotate: {
                 x: 22
             },
-            delay: 300
+            delay: 500
         });
         ScrollReveal().reveal('.bloco4', {
             easing: 'ease-out',
@@ -129,8 +254,100 @@
             rotate: {
                 x: 22
             },
-            delay: 300
+            delay: 500
         });
     </script>
+    <script src="./atropos.min.js"></script>
+    <script>
+        const myAtropos = Atropos({
+            el: '.my-atropos',
+            activeOffset: 20,
+            rotateXMax: 35,
+            rotateYMax: 35,
+            stretchZ: 15,
+            stretchX: 20,
+            stretchY: 25,
+            shadow: true,
+            shadowOffset: 40,
+            shadowScale: 1,
+            highlight: true,
+
+
+            // rest of parameters
+        });
+        const myAtropos2 = Atropos({
+            el: '.atropos2',
+            activeOffset: 20,
+            rotateXMax: 35,
+            rotateYMax: 35,
+            stretchZ: 15,
+            stretchX: 20,
+            stretchY: 25,
+            shadow: true,
+            shadowOffset: 40,
+            shadowScale: 1,
+            highlight: true,
+            // rest of parameters
+        });
+        const myAtropos3 = Atropos({
+            el: '.atropos3',
+            activeOffset: 20,
+            rotateXMax: 35,
+            rotateYMax: 35,
+            stretchZ: 15,
+            stretchX: 20,
+            stretchY: 25,
+            shadow: true,
+            shadowOffset: 40,
+            shadowScale: 1,
+            highlight: true,
+            // rest of parameters
+        });
+        const myAtropos4 = Atropos({
+            el: '.atropos4',
+            activeOffset: 20,
+            rotateXMax: 35,
+            rotateYMax: 35,
+            stretchZ: 15,
+            stretchX: 20,
+            stretchY: 25,
+            shadow: true,
+            shadowOffset: 40,
+            shadowScale: 1,
+            highlight: true,
+            // rest of parameters
+        });
+        const myAtropos5 = Atropos({
+            el: '.atropos5',
+            activeOffset: 20,
+            rotateXMax: 35,
+            rotateYMax: 35,
+            stretchZ: 15,
+            stretchX: 20,
+            stretchY: 25,
+            shadow: true,
+            shadowOffset: 40,
+            shadowScale: 1,
+            highlight: true,
+            // rest of parameters
+        });
+        const myAtropos6 = Atropos({
+            el: '.atropos6',
+            activeOffset: 20,
+            rotateXMax: 35,
+            rotateYMax: 35,
+            stretchZ: 15,
+            stretchX: 20,
+            stretchY: 25,
+            shadow: true,
+            shadowOffset: 40,
+            shadowScale: 1,
+            highlight: true,
+            // rest of parameters
+        });
+    </script>
+
+
 </body>
+
 </html>
